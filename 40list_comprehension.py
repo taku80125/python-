@@ -5,3 +5,6 @@ list = []
 for number in numbers:
     list.append(number*2)
 print(list)   
+
+list.append(number*2 for number in numbers)
+print (list)
